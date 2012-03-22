@@ -1,3 +1,43 @@
+[submodule "cookbooks/apache2"]
+	path = cookbooks/apache2
+	url = git://github.com/opscode-cookbooks/apache2.git
+[submodule "cookbooks/apt"]
+	path = cookbooks/apt
+	url = git://github.com/opscode-cookbooks/apt.git
+[submodule "cookbooks/database"]
+	path = cookbooks/database
+	url = git://github.com/opscode-cookbooks/database.git
+[submodule "cookbooks/erlang"]
+	path = cookbooks/erlang
+	url = git://github.com/opscode-cookbooks/erlang.git
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = git://github.com/opscode-cookbooks/mysql.git
+[submodule "cookbooks/ntp"]
+	path = cookbooks/ntp
+	url = git://github.com/opscode-cookbooks/ntp.git
+[submodule "cookbooks/openssh"]
+	path = cookbooks/openssh
+	url = git://github.com/opscode-cookbooks/openssh.git
+[submodule "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = git://github.com/opscode-cookbooks/openssl.git
+[submodule "cookbooks/rabbitmq"]
+	path = cookbooks/rabbitmq
+	url = git://github.com/opscode-cookbooks/rabbitmq.git
+[submodule "cookbooks/selinux"]
+	path = cookbooks/selinux
+	url = git://github.com/opscode-cookbooks/selinux.git
+[submodule "cookbooks/yum"]
+	path = cookbooks/yum
+	url = git://github.com/opscode-cookbooks/yum.git
+[submodule "cookbooks/collectd"]
+	path = cookbooks/collectd
+	url = git://github.com/coderanger/chef-collectd.git
+[submodule "cookbooks/collectd_plugins"]
+	path = cookbooks/collectd_plugins
+	url = git://github.com/coderanger/chef-collect_plugins.git
+
 [submodule "cookbooks/keystone"]
 	path = cookbooks/keystone
 	url = git@github.com:kbader/keystone.git
