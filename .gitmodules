@@ -10,3 +10,9 @@
 [submodule "cookbooks/horizon"]
 	path = cookbooks/horizon
 	url = git@github.com:kbader/horizon.git
+[submodule "cookbooks/stud"]
+	path = cookbooks/stud
+	url = git@github.com:kbader/stud
+[submodule "cookbooks/parted"]
+	path = cookbooks/parted
+	url = git@github.com:kbader/parted
