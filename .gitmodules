@@ -1,0 +1,12 @@
+[submodule "cookbooks/keystone"]
+	path = cookbooks/keystone
+	url = git@github.com:kbader/keystone.git
+[submodule "cookbooks/nova"]
+	path = cookbooks/nova
+	url = git@github.com:kbader/nova.git
+[submodule "cookbooks/glance"]
+	path = cookbooks/glance
+	url = git@github.com:kbader/glance.git
+[submodule "cookbooks/horizon"]
+	path = cookbooks/horizon
+	url = git@github.com:kbader/horizon.git
