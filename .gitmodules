@@ -34,10 +34,6 @@
 [submodule "cookbooks/collectd"]
 	path = cookbooks/collectd
 	url = git://github.com/coderanger/chef-collectd.git
-[submodule "cookbooks/collectd_plugins"]
-	path = cookbooks/collectd_plugins
-	url = git://github.com/coderanger/chef-collect_plugins.git
-
 [submodule "cookbooks/keystone"]
 	path = cookbooks/keystone
 	url = git@github.com:kbader/keystone.git
@@ -56,3 +52,6 @@
 [submodule "cookbooks/parted"]
 	path = cookbooks/parted
 	url = git@github.com:kbader/parted
+[submodule "cookbooks/collectd-plugins"]
+	path = cookbooks/collectd-plugins
+	url = git@github.com:kbader/collectd-plugins.git
