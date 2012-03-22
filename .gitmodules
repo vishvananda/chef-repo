@@ -55,3 +55,9 @@
 [submodule "cookbooks/collectd-plugins"]
 	path = cookbooks/collectd-plugins
 	url = git@github.com:kbader/collectd-plugins.git
+[submodule "cookbooks/xfs"]
+	path = cookbooks/xfs
+	url = git://github.com/opscode-cookbooks/xfs.git
+[submodule "cookbooks/logrotate"]
+	path = cookbooks/logrotate
+	url = git://github.com/opscode-cookbooks/logrotate.git
