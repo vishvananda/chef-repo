@@ -36,25 +36,25 @@
 	url = git://github.com/coderanger/chef-collectd.git
 [submodule "cookbooks/keystone"]
 	path = cookbooks/keystone
-	url = git@github.com:kbader/keystone.git
+	url = git@github.com:osops/keystone.git
 [submodule "cookbooks/nova"]
 	path = cookbooks/nova
-	url = git@github.com:kbader/nova.git
+	url = git@github.com:osops/nova.git
 [submodule "cookbooks/glance"]
 	path = cookbooks/glance
-	url = git@github.com:kbader/glance.git
+	url = git@github.com:osops/glance.git
 [submodule "cookbooks/horizon"]
 	path = cookbooks/horizon
-	url = git@github.com:kbader/horizon.git
+	url = git@github.com:osops/horizon.git
 [submodule "cookbooks/stud"]
 	path = cookbooks/stud
-	url = git@github.com:kbader/stud
+	url = git@github.com:osops/stud
 [submodule "cookbooks/parted"]
 	path = cookbooks/parted
-	url = git@github.com:kbader/parted
+	url = git@github.com:osops/parted
 [submodule "cookbooks/collectd-plugins"]
 	path = cookbooks/collectd-plugins
-	url = git@github.com:kbader/collectd-plugins.git
+	url = git@github.com:osops/collectd-plugins.git
 [submodule "cookbooks/xfs"]
 	path = cookbooks/xfs
 	url = git://github.com/opscode-cookbooks/xfs.git
