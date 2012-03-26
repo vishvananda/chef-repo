@@ -41,6 +41,21 @@
 [submodule "cookbooks/postgresql"]
 	path = cookbooks/postgresql
 	url = git://github.com/opscode-cookbooks/postgresql.git
+[submodule "cookbooks/rsyslog"]
+	path = cookbooks/rsyslog
+	url = git://github.com/opscode-cookbooks/rsyslog.git
+[submodule "cookbooks/postfix"]
+	path = cookbooks/postfix
+	url = git://github.com/opscode-cookbooks/postfix.git
+[submodule "cookbooks/fail2ban"]
+	path = cookbooks/fail2ban
+	url = git://github.com/opscode-cookbooks/fail2ban.git
+[submodule "cookbooks/chef-client"]
+	path = cookbooks/chef-client
+	url = git://github.com/opscode-cookbooks/chef-client.git
+[submodule "cookbooks/resolver"]
+	path = cookbooks/resolver
+	url = git://github.com/opscode-cookbooks/resolver.git
 
 # Third party cookbooks
 [submodule "cookbooks/collectd"]
@@ -72,6 +87,12 @@
 [submodule "cookbooks/collectd-plugins"]
 	path = cookbooks/collectd-plugins
 	url = git://github.com/osops/collectd-plugins.git
+[submodule "cookbooks/btrfs"]
+	path = cookbooks/btrfs
+	url = git://github.com/osops/btrfs.git
+[submodule "cookbooks/osops-utils"]
+	path = cookbooks/osops-utils
+	url = git://github.com/osops/osops-utils.git
 [submodule "cookbooks/vagrant-openstack"]
 	path = cookbooks/vagrant-openstack
 	url = git://github.com/osops/vagrant-openstack.git
