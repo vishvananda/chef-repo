@@ -1,3 +1,4 @@
+# Opscode Cookbooks
 [submodule "cookbooks/apache2"]
 	path = cookbooks/apache2
 	url = git://github.com/opscode-cookbooks/apache2.git
@@ -10,9 +11,6 @@
 [submodule "cookbooks/erlang"]
 	path = cookbooks/erlang
 	url = git://github.com/opscode-cookbooks/erlang.git
-[submodule "cookbooks/mysql"]
-	path = cookbooks/mysql
-	url = git://github.com/opscode-cookbooks/mysql.git
 [submodule "cookbooks/ntp"]
 	path = cookbooks/ntp
 	url = git://github.com/opscode-cookbooks/ntp.git
@@ -31,30 +29,6 @@
 [submodule "cookbooks/yum"]
 	path = cookbooks/yum
 	url = git://github.com/opscode-cookbooks/yum.git
-[submodule "cookbooks/collectd"]
-	path = cookbooks/collectd
-	url = git://github.com/coderanger/chef-collectd.git
-[submodule "cookbooks/keystone"]
-	path = cookbooks/keystone
-	url = git@github.com:osops/keystone.git
-[submodule "cookbooks/nova"]
-	path = cookbooks/nova
-	url = git@github.com:osops/nova.git
-[submodule "cookbooks/glance"]
-	path = cookbooks/glance
-	url = git@github.com:osops/glance.git
-[submodule "cookbooks/horizon"]
-	path = cookbooks/horizon
-	url = git@github.com:osops/horizon.git
-[submodule "cookbooks/stud"]
-	path = cookbooks/stud
-	url = git@github.com:osops/stud
-[submodule "cookbooks/parted"]
-	path = cookbooks/parted
-	url = git@github.com:osops/parted
-[submodule "cookbooks/collectd-plugins"]
-	path = cookbooks/collectd-plugins
-	url = git@github.com:osops/collectd-plugins.git
 [submodule "cookbooks/xfs"]
 	path = cookbooks/xfs
 	url = git://github.com/opscode-cookbooks/xfs.git
@@ -67,3 +41,34 @@
 [submodule "cookbooks/postgresql"]
 	path = cookbooks/postgresql
 	url = git://github.com/opscode-cookbooks/postgresql.git
+
+# Third party cookbooks
+[submodule "cookbooks/collectd"]
+	path = cookbooks/collectd
+	url = git://github.com/coderanger/chef-collectd.git
+
+# Osops cookbooks
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = git://github.com/osops/mysql.git
+[submodule "cookbooks/keystone"]
+	path = cookbooks/keystone
+	url = git://github.com/osops/keystone.git
+[submodule "cookbooks/nova"]
+	path = cookbooks/nova
+	url = git://github.com/osops/nova.git
+[submodule "cookbooks/glance"]
+	path = cookbooks/glance
+	url = git://github.com/osops/glance.git
+[submodule "cookbooks/horizon"]
+	path = cookbooks/horizon
+	url = git://github.com/osops/horizon.git
+[submodule "cookbooks/stud"]
+	path = cookbooks/stud
+	url = git://github.com/osops/stud
+[submodule "cookbooks/parted"]
+	path = cookbooks/parted
+	url = git://github.com/osops/parted
+[submodule "cookbooks/collectd-plugins"]
+	path = cookbooks/collectd-plugins
+	url = git://github.com/osops/collectd-plugins.git
