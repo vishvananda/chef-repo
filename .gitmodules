@@ -61,6 +61,12 @@
 [submodule "cookbooks/logrotate"]
 	path = cookbooks/logrotate
 	url = git://github.com/opscode-cookbooks/logrotate.git
+[submodule "cookbooks/aws"]
+	path = cookbooks/aws
+	url = git://github.com/opscode-cookbooks/aws.git
+[submodule "cookbooks/postgresql"]
+	path = cookbooks/postgresql
+	url = git://github.com/opscode-cookbooks/postgresql.git
 [submodule "cookbooks/vagrant-openstack"]
 	path = cookbooks/vagrant-openstack
 	url = git://github.com/osops/vagrant-openstack.git
