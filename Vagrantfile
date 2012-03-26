@@ -56,6 +56,7 @@ Vagrant::Config.run do |config|
       "recipe[nova]",
     ]
     chef.json.merge!({
+      :controller_address => ip,
       :my_ip => ip,
     })
   end
