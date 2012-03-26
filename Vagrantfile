@@ -53,6 +53,7 @@ Vagrant::Config.run do |config|
       "recipe[vagrant-openstack::hostname]",
       "recipe[vagrant-openstack::cache]",
       "recipe[vagrant-openstack::dotfiles]",
+      "recipe[nova]",
     ]
     chef.json.merge!({
       :my_ip => ip,
