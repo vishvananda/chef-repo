@@ -56,6 +56,9 @@ Vagrant::Config.run do |config|
       "recipe[nova]",
     ]
     chef.json.merge!({
+      :osops_networks => {
+        "management" => "#{ip_prefix}.0/24"
+      },
       :controller_address => ip,
       :my_ip => ip,
     })
