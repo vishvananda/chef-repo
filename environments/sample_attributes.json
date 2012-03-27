@@ -1,0 +1,23 @@
+{
+    "osops_networks": {
+	"management": "192.168.123.0/24"
+    },
+    "glance": {
+	"load_images": false
+    },
+    "mysql": {
+	"root_network_acl": "192.168.123.%",
+	"allow_remote_root": true
+    },
+    "virt_type": "qemu",
+    "public": {
+	"ipv4_cidr": "192.168.100.0/24",
+	"network_size": "255",
+	"num_networks": "1",
+	"label": "public",
+	"bridge_dev": "eth1",
+	"dns1": "8.8.8.8",
+	"dns2": "8.8.4.4",
+	"bridge": "br100"
+    }
+}
