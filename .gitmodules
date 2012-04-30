@@ -56,6 +56,9 @@
 [submodule "cookbooks/resolver"]
 	path = cookbooks/resolver
 	url = git://github.com/opscode-cookbooks/resolver.git
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = git://github.com/opscode-cookbooks/mysql.git
 
 # Third party cookbooks
 [submodule "cookbooks/collectd"]
@@ -63,9 +66,6 @@
 	url = git://github.com/coderanger/chef-collectd.git
 
 # Osops cookbooks
-[submodule "cookbooks/mysql"]
-	path = cookbooks/mysql
-	url = git://github.com/osops/mysql.git
 [submodule "cookbooks/keystone"]
 	path = cookbooks/keystone
 	url = git://github.com/osops/keystone.git
