@@ -59,6 +59,9 @@
 [submodule "cookbooks/mysql"]
 	path = cookbooks/mysql
 	url = git://github.com/opscode-cookbooks/mysql.git
+[submodule "cookbooks/windows"]
+	path = cookbooks/windows
+	url = git://github.com/opscode-cookbooks/windows.git
 
 # Third party cookbooks
 [submodule "cookbooks/collectd"]
