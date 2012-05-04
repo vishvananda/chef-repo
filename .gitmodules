@@ -5,12 +5,33 @@
 [submodule "cookbooks/apt"]
 	path = cookbooks/apt
 	url = git://github.com/opscode-cookbooks/apt.git
+[submodule "cookbooks/aws"]
+	path = cookbooks/aws
+	url = git://github.com/opscode-cookbooks/aws.git
+[submodule "cookbooks/chef-client"]
+	path = cookbooks/chef-client
+	url = git://github.com/opscode-cookbooks/chef-client.git
+[submodule "cookbooks/chef_handler"]
+	path = cookbooks/chef_handler
+	url = git://github.com/opscode-cookbooks/chef_handler.git
+[submodule "cookbooks/cron"]
+	path = cookbooks/cron
+	url = git://github.com/opscode-cookbooks/cron.git
 [submodule "cookbooks/database"]
 	path = cookbooks/database
 	url = git://github.com/opscode-cookbooks/database.git
+[submodule "cookbooks/logrotate"]
+	path = cookbooks/logrotate
+	url = git://github.com/opscode-cookbooks/logrotate.git
 [submodule "cookbooks/erlang"]
 	path = cookbooks/erlang
 	url = git://github.com/opscode-cookbooks/erlang.git
+[submodule "cookbooks/fail2ban"]
+	path = cookbooks/fail2ban
+	url = git://github.com/opscode-cookbooks/fail2ban.git
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = git://github.com/opscode-cookbooks/mysql.git
 [submodule "cookbooks/ntp"]
 	path = cookbooks/ntp
 	url = git://github.com/opscode-cookbooks/ntp.git
@@ -20,45 +41,33 @@
 [submodule "cookbooks/openssl"]
 	path = cookbooks/openssl
 	url = git://github.com/opscode-cookbooks/openssl.git
-[submodule "cookbooks/rabbitmq"]
-	path = cookbooks/rabbitmq
-	url = git://github.com/opscode-cookbooks/rabbitmq.git
-[submodule "cookbooks/selinux"]
-	path = cookbooks/selinux
-	url = git://github.com/opscode-cookbooks/selinux.git
-[submodule "cookbooks/yum"]
-	path = cookbooks/yum
-	url = git://github.com/opscode-cookbooks/yum.git
-[submodule "cookbooks/xfs"]
-	path = cookbooks/xfs
-	url = git://github.com/opscode-cookbooks/xfs.git
-[submodule "cookbooks/logrotate"]
-	path = cookbooks/logrotate
-	url = git://github.com/opscode-cookbooks/logrotate.git
-[submodule "cookbooks/aws"]
-	path = cookbooks/aws
-	url = git://github.com/opscode-cookbooks/aws.git
-[submodule "cookbooks/postgresql"]
-	path = cookbooks/postgresql
-	url = git://github.com/opscode-cookbooks/postgresql.git
-[submodule "cookbooks/rsyslog"]
-	path = cookbooks/rsyslog
-	url = git://github.com/opscode-cookbooks/rsyslog.git
 [submodule "cookbooks/postfix"]
 	path = cookbooks/postfix
 	url = git://github.com/opscode-cookbooks/postfix.git
-[submodule "cookbooks/fail2ban"]
-	path = cookbooks/fail2ban
-	url = git://github.com/opscode-cookbooks/fail2ban.git
-[submodule "cookbooks/chef-client"]
-	path = cookbooks/chef-client
-	url = git://github.com/opscode-cookbooks/chef-client.git
+[submodule "cookbooks/postgresql"]
+	path = cookbooks/postgresql
+	url = git://github.com/opscode-cookbooks/postgresql.git
+[submodule "cookbooks/rabbitmq"]
+	path = cookbooks/rabbitmq
+	url = git://github.com/opscode-cookbooks/rabbitmq.git
 [submodule "cookbooks/resolver"]
 	path = cookbooks/resolver
 	url = git://github.com/opscode-cookbooks/resolver.git
-[submodule "cookbooks/mysql"]
-	path = cookbooks/mysql
-	url = git://github.com/opscode-cookbooks/mysql.git
+[submodule "cookbooks/rsyslog"]
+	path = cookbooks/rsyslog
+	url = git://github.com/opscode-cookbooks/rsyslog.git
+[submodule "cookbooks/selinux"]
+	path = cookbooks/selinux
+	url = git://github.com/opscode-cookbooks/selinux.git
+[submodule "cookbooks/windows"]
+	path = cookbooks/windows
+	url = git://github.com/opscode-cookbooks/windows.git
+[submodule "cookbooks/xfs"]
+	path = cookbooks/xfs
+	url = git://github.com/opscode-cookbooks/xfs.git
+[submodule "cookbooks/yum"]
+	path = cookbooks/yum
+	url = git://github.com/opscode-cookbooks/yum.git
 
 # Third party cookbooks
 [submodule "cookbooks/collectd"]
